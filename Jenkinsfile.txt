@@ -11,11 +11,16 @@ pipeline {
                 sh 'mvn clean'
             }
         }
-		
-		
-		
-		
+			
 		
 		// *****ALL CODE TO BE ADDED ABOVE THIS COMMENT*****
     }
 }
+//Code starts for stage PMD
+		stage('PMD') {
+            steps {
+                sh 'mvn site'
+            }
+        }
+		//Code ends for stage PMD
+		
