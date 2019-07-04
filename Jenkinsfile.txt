@@ -45,7 +45,6 @@ pipeline {
             }
         }
 		//Code ends for stage JaCoCo
-		
 
     }
 }
